@@ -1,0 +1,86 @@
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Quicksand' , sans-serif;
+     font-size: 16px;
+}
+h2 , h3 , h1 {
+     font-family: 'Grandiflora One' , serif;
+     
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+     display: flex;
+     flex-basis: 100%;
+     justify-content: flex-end;
+     align-items: center;
+     height: 10%;
+     padding: 15px 40px;
+     
+}
+
+
+.logo {
+     margin-right: auto;
+}
+nav ul li{
+     list-style: none;
+     display: inline-block;
+     flex-direction: row;
+     flex-basis: 100%;
+}
+
+.welcome , .story , .food , .reservations .testimonials {
+     display: flex;
+     height: 23%;
+}
+
+.welcome {
+     display: flex;
+     background-color: aqua;
+     background-image: url(/images/welcome.jpg);
+     background-size: cover;
+     height: 500px;
+     width: 100%;
+     justify-content: space-evenly;
+     justify-content: flex-start;
+     flex-direction: column;
+     align-content: space-between;
+     flex-wrap: none;
+}
+
+.heading {
+     display: flex;
+     width: 50%;
+     align-content: column;
+     justify-content: space-evenly;
+     padding: 1%;
+
+     
+}
+
+h1 {
+     font-size: 3rem;
+}
+
+.links {
+     flex-direction: row;
+     justify-content: space-between;
+     flex-basis: 50px;
+}
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
